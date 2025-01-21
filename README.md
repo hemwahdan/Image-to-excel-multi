@@ -62,7 +62,10 @@ You will need to install the required libraries (pytesseract, pdf2image, Pillow,
 
 pip install pytesseract pdf2image pillow pandas
 
-You may also need to install Tesseract itself (the OCR engine). It can be downloaded from here. Make sure the tesseract executable is in your system's PATH or specify the path in the script using pytesseract.pytesseract.tesseract_cmd.
+You may also need to install Tesseract itself (the OCR engine).
+
+It can be downloaded from here. Make sure the tesseract executable is in your system's PATH or specify the path in the script using pytesseract.pytesseract.tesseract_cmd.
+
 This script provides a solid foundation for building a PDF data extraction tool, especially if you're working with scanned PDFs where text needs to be extracted using OCR.
 
 
